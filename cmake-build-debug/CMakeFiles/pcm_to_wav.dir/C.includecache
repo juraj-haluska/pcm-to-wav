@@ -15,6 +15,24 @@ math.h
 -
 wavfile.h
 C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h
+mixer.h
+C:/Users/halus/CLionProjects/pcm-to-wav/mixer.h
+
+C:/Users/halus/CLionProjects/pcm-to-wav/mixer.c
+stdlib.h
+-
+math.h
+-
+inttypes.h
+-
+stdio.h
+-
+mixer.h
+C:/Users/halus/CLionProjects/pcm-to-wav/mixer.h
+
+C:/Users/halus/CLionProjects/pcm-to-wav/mixer.h
+inttypes.h
+-
 
 C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.c
 stdio.h

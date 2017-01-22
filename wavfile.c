@@ -18,7 +18,7 @@ wavfile wavOpen(char * fname, int dataSize, int srate){
     header.subChunk2Id = DATA;
     header.subChunk2Size = (dataSize * CHANNELS * BPS) / 8;
 
-    FILE * f = fopen(fname, "wb");
+    FILE * f = fopen(fname, "wb");  // on linux just w
     if(f != NULL){
         fwrite(&header, sizeof(header), 1, f);
         return f;

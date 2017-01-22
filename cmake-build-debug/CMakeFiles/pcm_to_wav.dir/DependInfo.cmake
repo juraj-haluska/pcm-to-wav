@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/halus/CLionProjects/pcm-to-wav/main.c" "C:/Users/halus/CLionProjects/pcm-to-wav/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/main.c.obj"
+  "C:/Users/halus/CLionProjects/pcm-to-wav/mixer.c" "C:/Users/halus/CLionProjects/pcm-to-wav/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/mixer.c.obj"
   "C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.c" "C:/Users/halus/CLionProjects/pcm-to-wav/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/wavfile.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

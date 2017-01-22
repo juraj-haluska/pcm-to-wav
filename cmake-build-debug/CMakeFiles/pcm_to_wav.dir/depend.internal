@@ -3,7 +3,11 @@
 
 CMakeFiles/pcm_to_wav.dir/main.c.obj
  C:/Users/halus/CLionProjects/pcm-to-wav/main.c
+ C:/Users/halus/CLionProjects/pcm-to-wav/mixer.h
  C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h
+CMakeFiles/pcm_to_wav.dir/mixer.c.obj
+ C:/Users/halus/CLionProjects/pcm-to-wav/mixer.c
+ C:/Users/halus/CLionProjects/pcm-to-wav/mixer.h
 CMakeFiles/pcm_to_wav.dir/wavfile.c.obj
  C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.c
  C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h

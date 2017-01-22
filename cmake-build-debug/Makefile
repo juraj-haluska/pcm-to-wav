@@ -149,6 +149,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/main.c.s
 .PHONY : main.c.s
 
+mixer.obj: mixer.c.obj
+
+.PHONY : mixer.obj
+
+# target to build an object file
+mixer.c.obj:
+	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/mixer.c.obj
+.PHONY : mixer.c.obj
+
+mixer.i: mixer.c.i
+
+.PHONY : mixer.i
+
+# target to preprocess a source file
+mixer.c.i:
+	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/mixer.c.i
+.PHONY : mixer.c.i
+
+mixer.s: mixer.c.s
+
+.PHONY : mixer.s
+
+# target to generate assembly for a file
+mixer.c.s:
+	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/mixer.c.s
+.PHONY : mixer.c.s
+
 wavfile.obj: wavfile.c.obj
 
 .PHONY : wavfile.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mixer.obj
+	@echo ... mixer.i
+	@echo ... mixer.s
 	@echo ... wavfile.obj
 	@echo ... wavfile.i
 	@echo ... wavfile.s
