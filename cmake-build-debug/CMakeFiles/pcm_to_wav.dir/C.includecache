@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/halus/CLionProjects/pcm-to-wav/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+main.h
+C:/Users/halus/CLionProjects/pcm-to-wav/main.h
+
+C:/Users/halus/CLionProjects/pcm-to-wav/main.h
+inttypes.h
+-
+
