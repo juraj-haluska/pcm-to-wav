@@ -30,6 +30,7 @@ typedef struct t_header {
 #define BRATE       (SRATE * CHANNELS * BPS) / 8
 #define BALIGN      (CHANNELS * BPS) / 8
 #define DATA        0x61746164
+
 #define BITS8       8
 
 #endif //PCM_TO_WAV_MAIN_H
