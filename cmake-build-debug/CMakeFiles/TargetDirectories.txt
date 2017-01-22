@@ -1,0 +1,3 @@
+C:/Users/halus/CLionProjects/pcm-to-wav/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/halus/CLionProjects/pcm-to-wav/cmake-build-debug/CMakeFiles/pcm_to_wav.dir
+C:/Users/halus/CLionProjects/pcm-to-wav/cmake-build-debug/CMakeFiles/rebuild_cache.dir
