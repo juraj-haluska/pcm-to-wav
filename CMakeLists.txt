@@ -3,5 +3,5 @@ project(pcm_to_wav)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES main.c main.h)
+set(SOURCE_FILES main.c wavfile.c wavfile.h)
 add_executable(pcm_to_wav ${SOURCE_FILES})

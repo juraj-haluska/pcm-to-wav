@@ -83,7 +83,10 @@
 		<Unit filename="C:/Users/halus/CLionProjects/pcm-to-wav/main.c">
 			<Option target="pcm_to_wav"/>
 		</Unit>
-		<Unit filename="C:/Users/halus/CLionProjects/pcm-to-wav/main.h">
+		<Unit filename="C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.c">
+			<Option target="pcm_to_wav"/>
+		</Unit>
+		<Unit filename="C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h">
 			<Option target="pcm_to_wav"/>
 		</Unit>
 		<Unit filename="C:/Users/halus/CLionProjects/pcm-to-wav/CMakeLists.txt">

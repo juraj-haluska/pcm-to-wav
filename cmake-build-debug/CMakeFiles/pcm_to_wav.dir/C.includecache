@@ -13,10 +13,16 @@ stdlib.h
 -
 math.h
 -
-main.h
-C:/Users/halus/CLionProjects/pcm-to-wav/main.h
+wavfile.h
+C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h
 
-C:/Users/halus/CLionProjects/pcm-to-wav/main.h
+C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.c
+stdio.h
+-
+wavfile.h
+C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h
+
+C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h
 inttypes.h
 -
 

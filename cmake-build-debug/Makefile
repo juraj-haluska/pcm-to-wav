@@ -149,6 +149,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/main.c.s
 .PHONY : main.c.s
 
+wavfile.obj: wavfile.c.obj
+
+.PHONY : wavfile.obj
+
+# target to build an object file
+wavfile.c.obj:
+	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/wavfile.c.obj
+.PHONY : wavfile.c.obj
+
+wavfile.i: wavfile.c.i
+
+.PHONY : wavfile.i
+
+# target to preprocess a source file
+wavfile.c.i:
+	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/wavfile.c.i
+.PHONY : wavfile.c.i
+
+wavfile.s: wavfile.c.s
+
+.PHONY : wavfile.s
+
+# target to generate assembly for a file
+wavfile.c.s:
+	$(MAKE) -f CMakeFiles\pcm_to_wav.dir\build.make CMakeFiles/pcm_to_wav.dir/wavfile.c.s
+.PHONY : wavfile.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... wavfile.obj
+	@echo ... wavfile.i
+	@echo ... wavfile.s
 .PHONY : help
 
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pcm_to_wav.dir/main.c.obj"
+  "CMakeFiles/pcm_to_wav.dir/wavfile.c.obj"
   "pcm_to_wav.pdb"
   "pcm_to_wav.exe"
   "pcm_to_wav.exe.manifest"
