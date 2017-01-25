@@ -1,31 +1,31 @@
 #include <stdlib.h>
-#include <math.h>
 #include <inttypes.h>
-#include <stdio.h>
 #include "mixer.h"
 
 void mix(uint16_t ** input, int inputs, int length, int16_t * output){
+
     double * sum = calloc(sizeof(double), length);
 
-    double gain = (1.0 / inputs / 10);
+    float max_val = 0;
+    float min_val = 0;
 
-    printf("gain: %f", gain);
-
-    double max = 0;
-
-    // summation
-    for(int i = 0; i < inputs; i++){
-        for(int a = 0; a < length; a++){
-            sum[a] += (double) (input[i][a] * gain);
-            if(sum[a] >= max) max = sum[a];
+    for(int a = 0; a < inputs; a++) {
+        for (int i = 0; i < length; i++) {
+            sum[i] += (float) input[a][i] / DIV;
+            if(sum[i] >= max_val) max_val = sum[i];
+            if(sum[i] <= min_val) min_val = sum[i];
         }
     }
 
-    printf("max: %f", max);
-    // normalization
-    double factor = TOP / (max*5);
+    // normalize
+    int factor = 0;
+    if((abs(max_val) >= abs(min_val))) {
+        if(max_val != 0) factor = TOP / max_val;
+    } else {
+        if(min_val != 0) factor = TOP / abs(min_val);
+    }
     for(int i = 0; i < length; i++){
-        *(output + i) = (int16_t) round(sum[i] * factor);
+        output[i] = (int)(sum[i] * factor);
     }
 
     free(sum);
