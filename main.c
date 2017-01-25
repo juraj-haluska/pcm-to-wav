@@ -32,7 +32,7 @@ int main() {
     mix(data, NUMBA, DATA_SIZE, mixed);
 
     // write it to .wav file
-    wavfile wave = wavOpen("mixed.wav", DATA_SIZE, SRATE);
+    wavfile * wave = wavOpen("mixed.wav", SRATE);
 
     if(wave != NULL){
         wavWrite(mixed, DATA_SIZE, wave);

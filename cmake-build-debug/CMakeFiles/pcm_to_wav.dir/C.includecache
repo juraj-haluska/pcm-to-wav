@@ -33,6 +33,8 @@ inttypes.h
 C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.c
 stdio.h
 -
+stdlib.h
+-
 wavfile.h
 C:/Users/halus/CLionProjects/pcm-to-wav/wavfile.h
 

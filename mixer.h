@@ -1,3 +1,6 @@
+/*  Library for mixing PCM data.
+ */
+
 #ifndef PCM_TO_WAV_MIXER_H
 #define PCM_TO_WAV_MIXER_H
 

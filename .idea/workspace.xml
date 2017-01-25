@@ -12,11 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="887a5469-5673-44c7-b381-2ccde2172d9e" name="Default" comment="h">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/main.c.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/pcm_to_wav.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/wavfile.c.obj" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/main.c.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/main.c.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcm_to_wav.dir/objects.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/pcm_to_wav.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/pcm_to_wav.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mixer.c" afterPath="$PROJECT_DIR$/mixer.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mixer.h" afterPath="$PROJECT_DIR$/mixer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wavfile.c" afterPath="$PROJECT_DIR$/wavfile.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wavfile.h" afterPath="$PROJECT_DIR$/wavfile.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +39,8 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="-173">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -59,9 +63,31 @@
       <file leaf-file-name="mixer.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wavfile.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wavfile.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wavfile.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wavfile.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,10 +105,11 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/wavfile.h" />
         <option value="$PROJECT_DIR$/cmake-build-debug/wavfile.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/wavfile.c" />
-        <option value="$PROJECT_DIR$/mixer.h" />
         <option value="$PROJECT_DIR$/mixer.c" />
         <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/wavfile.c" />
+        <option value="$PROJECT_DIR$/wavfile.h" />
+        <option value="$PROJECT_DIR$/mixer.h" />
       </list>
     </option>
   </component>
@@ -367,12 +394,12 @@
       <workItem from="1485103057470" duration="4201000" />
       <workItem from="1485109411279" duration="6322000" />
       <workItem from="1485286296972" duration="1407000" />
-      <workItem from="1485369056178" duration="3793000" />
+      <workItem from="1485369056178" duration="5776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26193000" />
+    <option name="totallyTimeSpent" value="28176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,13 +415,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24776119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4080371" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33075735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33075735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -419,7 +446,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="h" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -554,32 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/MinGW/include/stdio.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3158">
-          <caret line="662" column="40" lean-forward="false" selection-start-line="662" selection-start-column="40" selection-end-line="662" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/include/math.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="788" column="22" lean-forward="false" selection-start-line="788" selection-start-column="22" selection-end-line="788" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wavfile.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wavfile.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -598,11 +605,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mixer.h">
+    <entry file="file://C:/MinGW/include/stdio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="662" column="0" lean-forward="false" selection-start-line="662" selection-start-column="0" selection-end-line="662" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wavfile.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,10 +633,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wavfile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="-173">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

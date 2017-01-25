@@ -1,3 +1,7 @@
+/*  Primitive library for writing mono, 16 bit signed PCM
+ *  data to .wav file.
+ */
+
 #ifndef PCM_TO_WAV_WAVFILE_H_H
 #define PCM_TO_WAV_WAVFILE_H_H
 
@@ -15,7 +19,11 @@
 
 #define BITS8       8
 
-typedef FILE * wavfile;
+typedef struct {
+    FILE * file;
+    unsigned long dataLength;
+    int srate;
+} wavfile;
 
 struct t_header {
     uint32_t chunkId;
@@ -33,9 +41,8 @@ struct t_header {
     uint32_t subChunk2Size;
 };
 
-wavfile wavOpen(char * fname, int dataSize, int srate);
-void wavWrite(int16_t * data, int length, wavfile f);
-void wavClose(wavfile f);
-
+wavfile * wavOpen(char * fname, int srate);
+void wavWrite(int16_t * data, int length, wavfile * w);
+void wavClose(wavfile * w);
 
 #endif //PCM_TO_WAV_WAVFILE_H_H
