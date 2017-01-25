@@ -2,7 +2,7 @@
 #include <inttypes.h>
 #include "mixer.h"
 
-void mix(uint16_t ** input, int inputs, int length, int16_t * output){
+void mix(int16_t ** input, int inputs, int length, int16_t * output){
 
     double * sum = calloc(sizeof(double), length);
 

@@ -5,12 +5,14 @@
 #include "mixer.h"
 
 #define SRATE       44100
-#define DATA_SIZE   SRATE * 10 // 10 seconds
+#define DATA_SIZE   SRATE   // 10 seconds
+
+#define NUMBA   5
 
 int main() {
 
     // generate some demo waveforms
-    int16_t * data[5];
+    int16_t * data[NUMBA];
     data[0] = (int16_t *) malloc(DATA_SIZE * sizeof(int16_t));
     data[1] = (int16_t *) malloc(DATA_SIZE * sizeof(int16_t));
     data[2] = (int16_t *) malloc(DATA_SIZE * sizeof(int16_t));
@@ -27,7 +29,7 @@ int main() {
 
     // mix generated waveforms
     int16_t * mixed = malloc(sizeof(int16_t) * DATA_SIZE);
-    mix(data, 5, DATA_SIZE, mixed);
+    mix(data, NUMBA, DATA_SIZE, mixed);
 
     // write it to .wav file
     wavfile wave = wavOpen("mixed.wav", DATA_SIZE, SRATE);
